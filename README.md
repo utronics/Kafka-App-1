@@ -1,5 +1,5 @@
 # webflux-astradb
 ## Read the blog related to this astradb example here
-[Blog](https://utronics.hashnode.dev/connect-spring-webflux-with-astradb-cassandra-database-crud-operations)
+[Blog](https://utronics.hashnode.dev/spring-webflux-reactive-kafka-cassandra-complete-reactive-spring-apps)
 
-[Swagger url link](https://github.com/uday-utronics)
+[Swagger url link](http://localhost:8080/webjars/swagger-ui/index.html#/)
