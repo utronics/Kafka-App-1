@@ -1,0 +1,26 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+  data:
+    cassandra:
+      keyspace-name: utronics
+      username: NUhLATNGBOjvjkUPNNqHrvUj
+      password: 6378wbFznhn7ru5ZKxIhJTchiMv0hEgmbRZkYejmAXzUZh.R,6ErJjPGuynMTYs8PLDfqKW.00LZfP5H_uQ7mQxDHCsjdpU94r1YA+_Pck1Cvb,32+6MOruC-SKcqdFZ
+      schema-action: create-if-not-exists
+      request:
+        timeout: 10s
+      connection:
+        connect-timeout: 10s
+        init-query-timeout: 10s
+datastax.astra:
+  secure-connect-bundle: secure-connect-employee.zip
+astra.db:
+  id: 14a85f30-60c7-440d-b62e-6c8714c90dd2-1
+  region: asia-south1
+  keyspace: utronics
+  application.token: AstraCS:NUhLATNGBOjvjkUPNNqHrvUj:26e16eba1a17100d4a0c782127bafcd5f3bcc86ce271979c1b1b7a1a32d70ca5
+
+PRODUCER_TOPIC: app_updates
